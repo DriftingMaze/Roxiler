@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 1rem;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.7rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    background-color: #3498db;
+  }
+  
+  div.store-card {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    margin-right: 10px;
+  }
