@@ -15,11 +15,11 @@ const User = UserDef(sequelize);
 const Store = StoreDef(sequelize);
 const Rating = RatingDef(sequelize);
 
-User.hasMany(Rating);
-Rating.belongsTo(User);
+User.hasMany(Rating, { foreignKey: 'userId' });
+Rating.belongsTo(User, { foreignKey: 'userId' });
 
-Store.hasMany(Rating);
-Rating.belongsTo(Store);
+Store.hasMany(Rating, { foreignKey: 'storeId' });
+Rating.belongsTo(Store, { foreignKey: 'storeId' });
 
 Store.belongsTo(User, { foreignKey: 'ownerId' });
 
