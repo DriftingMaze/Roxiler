@@ -1,4 +1,4 @@
-# 🏪 Roxiler Store Rating App
+# 🏪 Roxiler
 
 This is a full-stack web application where users can rate stores, store owners can view ratings for their stores, and admins can manage users and stores. Built with **React**, **Node.js**, **Express**, **PostgreSQL**, and **Sequelize**.
 
@@ -38,8 +38,8 @@ This is a full-stack web application where users can rate stores, store owners c
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/roxiler-store-rating-app.git
-cd roxiler-store-rating-app
+git clone https://github.com/DriftingMaze/Roxiler-Coding-Challenge.git
+cd Roxiler-Coding-challenge
 ```
 
 ---
@@ -100,7 +100,7 @@ These will be created automatically if no admin exists in the database:
 
 ```
 Email: admin@example.com
-Password: admin123
+Password: admin@123
 ```
 
 ---
@@ -108,11 +108,7 @@ Password: admin123
 ## 📝 Notes
 
 - Make sure PostgreSQL is running and the database mentioned in `.env` exists.
-- You can create the database manually using pgAdmin or:
-
-```sql
-CREATE DATABASE your_db_name;
-```
+- You can create the database manually using pgAdmin 
 
 ---
 
