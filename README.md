@@ -1,4 +1,4 @@
-# 🏪 Roxiler
+# Roxiler
 
 This is a full-stack web application where users can rate stores, store owners can view ratings for their stores, and admins can manage users and stores. Built with **React**, **Node.js**, **Express**, **PostgreSQL**, and **Sequelize**.
 
